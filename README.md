@@ -1,7 +1,30 @@
-This repository contains implementations and evaluations of various time series forecasting models, focusing on comparing Lag-Llama, LSTM, and Time Series Transformer models on stock market data (NVIDIA stock prices). The project is structured into two main parts:
+Project Overview
 
-DSC180B_Comparison: Implements and evaluates Lag-Llama and LSTM models.
+This project contains two Jupyter Notebook files: DSC180B_Comparison.ipynb and transformer_nvidia.ipynb, which are used for data comparison and running Transformer models, respectively.
 
-transformer_Nvidia: Implements and evaluates the Time Series Transformer model.
+Running Guide
 
-Follow the coding part and download the repo to run the result.
+1. Run DSC180B_Comparison.ipynb
+
+Follow the steps inside DSC180B_Comparison.ipynb and execute all the cells sequentially to ensure the required data and environment are properly set up.
+
+2. Run transformer_nvidia.ipynb
+
+After successfully executing DSC180B_Comparison.ipynb, proceed to run transformer_nvidia.ipynb for further Transformer-related experiments.
+
+Dependencies
+
+Ensure the following Python libraries are installed:
+
+Jupyter Notebook
+
+PyTorch
+
+Transformers
+
+Other dependencies can be found in the !pip install commands inside the Notebook files.
+
+Notes
+
+If you encounter any errors during execution, verify your Python version, check whether the required datasets are correctly loaded, and ensure all dependencies are properly installed.
+
